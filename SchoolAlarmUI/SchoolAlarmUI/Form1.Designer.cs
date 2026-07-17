@@ -42,6 +42,7 @@
             optionsToolStripMenuItem = new ToolStripMenuItem();
             เกยวกบโปรแกรมToolStripMenuItem = new ToolStripMenuItem();
             เปดโปรแกรมอตโนมตToolStripMenuItem = new ToolStripMenuItem();
+            เลอกไฟลเสยงToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)dgvSchedule).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -105,7 +106,7 @@
             // 
             // alarmToolStripMenuItem
             // 
-            alarmToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { vToolStripMenuItem, ลบกจกรรมToolStripMenuItem, เพมกจกรรมToolStripMenuItem });
+            alarmToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { vToolStripMenuItem, ลบกจกรรมToolStripMenuItem, เพมกจกรรมToolStripMenuItem, เลอกไฟลเสยงToolStripMenuItem });
             alarmToolStripMenuItem.Name = "alarmToolStripMenuItem";
             alarmToolStripMenuItem.Size = new Size(63, 24);
             alarmToolStripMenuItem.Text = "Alarm";
@@ -153,6 +154,13 @@
             เปดโปรแกรมอตโนมตToolStripMenuItem.Text = "เปิดโปรแกรมอัตโนมัติ";
             เปดโปรแกรมอตโนมตToolStripMenuItem.Click += เปดโปรแกรมอตโนมตToolStripMenuItem_Click;
             // 
+            // เลอกไฟลเสยงToolStripMenuItem
+            // 
+            เลอกไฟลเสยงToolStripMenuItem.Name = "เลอกไฟลเสยงToolStripMenuItem";
+            เลอกไฟลเสยงToolStripMenuItem.Size = new Size(224, 26);
+            เลอกไฟลเสยงToolStripMenuItem.Text = "เลือกไฟล์เสียง";
+            เลอกไฟลเสยงToolStripMenuItem.Click += เลอกไฟลเสยงToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -192,5 +200,6 @@
         private ToolStripMenuItem optionsToolStripMenuItem;
         private ToolStripMenuItem เกยวกบโปรแกรมToolStripMenuItem;
         private ToolStripMenuItem เปดโปรแกรมอตโนมตToolStripMenuItem;
+        private ToolStripMenuItem เลอกไฟลเสยงToolStripMenuItem;
     }
 }

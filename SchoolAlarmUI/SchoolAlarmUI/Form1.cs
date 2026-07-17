@@ -254,7 +254,7 @@ namespace SchoolAlarmUI
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            
+
         }
 
         private void Form1_Resize(object sender, EventArgs e)
@@ -358,6 +358,11 @@ namespace SchoolAlarmUI
             {
                 rk.DeleteValue(appName, false);
             }
+        }
+
+        private void เลอกไฟลเสยงToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            btnSelectSound_Click(sender, e);
         }
     }
 }
